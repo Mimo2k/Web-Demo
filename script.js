@@ -40,6 +40,7 @@ lessons.forEach((lesson) => {
         <a href="https://github.com/Mimo2k/Web-Demo/tree/main/${lesson.id}/" target="_blank" class="btn btn-warning">View Resources</a>
         <a href="./Tr/${lesson.id}/${lesson.id}.pptx" target="_blank" class="btn btn-success mb-2">View Tr</a>
         <a href="./Hw/${lesson.id}.pdf" target="_blank" class="btn btn-info mb-2">View Hw</a>
+        <a href="https://github.com/Mimo2k/Web-7-8-Student-Resource/tree/main/${lesson.id}/" target="_blank" class="btn btn-danger">Student Resources</a>
       </div>
     </div>
   `;

@@ -37,9 +37,11 @@ lessons.forEach((lesson) => {
         <h5 class="card-title">${lesson.name}</h5>
         <a href="./${lesson.id}/index.html" target="_blank" class="btn btn-primary mb-2">View Main Demo</a>
         <a href="./${lesson.id}/basic/index.html" target="_blank" class="btn btn-secondary mb-2">View Basic Demo</a>
-        <a href="./${lesson.id}/" target="_blank" class="btn btn-warning">View Resources</a>
+        <a href="https://github.com/Mimo2k/Web-Demo/tree/main/${lesson.id}/" target="_blank" class="btn btn-warning">View Resources</a>
       </div>
     </div>
   `;
   projectList.appendChild(col);
 });
+
+
